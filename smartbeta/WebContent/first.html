@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">		<!--유니코드로 전세계의 모든 문자를 표현할 수 있는 인코딩으로
+    우리가 작성한 한글을 문제 없이 표현할 수 있게 해줌. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">    <!-- 사이트에대한설명 -->
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <!-- 사이트저작자 -->
+    <meta name="generator" content="Jekyll v3.8.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+    <!-- viewport를 이용해 적절한 렌더링과 확대,축소를 할수 있게함  user-scalable=no를 추가해서 모바일 기기에서 확대,축소 기능을 끌 수 있게함.-->
+
+    <title>Smart Beta</title>	<!-- 웹페이지 제목-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+    <!-- 여러페이지 중에서 표준 페이지임을 알려주는 역할 -->
+
+    <!-- Bootstrap core CSS -->	
+<link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+<!--css를 담는 html 태그로 html 문서 표현형식을 정의한다.-->
+    <style> 
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="bootstrap-4.3.1-dist/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">	
+ <!-- 위 : 내비게이션 바 (메뉴바)를  중간크기로만들기위해 사용.  아래 : 그 안에 글넣음 -->
+    <a class="navbar-brand" href="#">Smart Beta</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">실전매매 영역 <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+    <div class="carousel-inner"> <!-- 이미지가 세로로 배치되는걸 막기위해서 -->
+      <div class="carousel-item active">
+          <img src="img/주식.PNG" class="img-responsive" alt="Responsive image" width="500" height="500">
+        <!-- 주식.PNG 사진을 집에 넣는데 크기는 500*500으로 넣음 -->
+        <div class="container">
+          <div class="carousel-caption text-left" > <!-- caption넣기
+          위해서 -->
+          <div style="color:black"><strong>
+            <h1>Smart Beta : 주식시장을 이기는 똑똑한 투자전략.</h1>
+            <p>초보 투자자 & 바쁜 직장인들에게 쉽게 투자할 수 있는 방법론을 제시 하고<br> 시장 수익률을 초과하는 알파를 제공하기 위함</p></strong>
+		<!-- 반응형 고정 폭 컨테이너container을 사용하고 우리 주제인 Smartbeta에대한 간단한 설명을 씀. -->
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="text-nuted">데이비드 드레먼의 <a href="역발상전략.html"  onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;"><font size = "25">역발상전략</font></a></h3>
+       <!-- 이름쓰고 링크를 걸어서 클릭하면 역발상전략.html로 이동할 수 있게 한다. -->
+        <p class="lead">  저 PER와 저 PBR을 기준으로 저평가 된 기업에 투자하는 방식이며 1위부터 20위까지 20종목에 일괄 투자(종목당 5%)합니다. 일분기 후 순위에서 제외되는 종목을 매도하고 순위에 포함되는 종목을 매수하는 방식으로 투자합니다. 이 방식으로 2000년부터 2018년까지 백테스한 수익률은 약 3900%입니다. * 업데이트는 매 주 일요일에 한 번 실행됩니다.</p>
+      </div>
+      <div class="col-md-5">
+          <a href="역발상전략.html" onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;">
+        <img src="img/데이비드.PNG" class="img-responsive" alt="Responsive image" width="500" height="500">
+        <!-- 이미지를 넣는데 이미지를 눌렀을때 역발상전략.html로 갈수 있게 a href를 이용해 링크를 걸어준다. -->
+      </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h3 class="text-muted">블랙의<a href="저변동성전략.html"  onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;"><font size = "25"> 저변동성전략</font></a></h3>
+      <!-- 저변동성전략에 a href를 이용해 링크를 달고 클릭하면 저변동성전략.html파일로 연결되게 한다. -->
+        <p class="lead">5년 월간 변동성을 기준으로 낮은 변동성을 가진 기업의 투자하는 방식이며 1위부터 40위까지 40종목에 일괄 투자(종목당 2.5%)합니다.
+        일분기 후 순위에서 제외되는 종목을 매도하고 순위에 포함되는 종목을 매수하는 방식으로 투자합니다. 이 방식으로 2000년부터 2018년까지 백테스한 수익률은 약 3900%입니다.
+         * 업데이트는 매 주 일요일에 한 번 실행됩니다.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <a href="저변동성전략.html"  onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;">
+        <!-- 저변동성전략이미지에 링크를 달고 클릭하면 저변동성전략.html파일로 연결되게 한다. -->
+      <img src="img/블랙.jpg" class="img-responsive" alt="Responsive image" width="450" height="450">
+      <!-- 이미지는 저장되어있는 이미지를 사용하고 크기는 500*500으로 정한다. -->
+    </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="text-muted">게리 안토나치의 <a href="듀얼모멘텀전략.html"  onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;"><font size = "25">듀얼모멘텀전략</font></a></h3>
+       <!-- 게리 안토나치의전략에에 a href를 이용해 링크를 달고 클릭하면 듀얼모멘텀전략.html파일로 연결되게 한다. -->
+        <p class="lead"> 절대 모멘텀과 상대 모멘텀의 특성을 활용한 투자 전략이며 상대 모멘텀이 높은 1위 부터 40위까지 40종목에 일괄 투자(종목 당 2.5%)합니다. 그리고 12 개월 절대 모멘텀을 이용하여 마켓 타이밍을 예측합니다.
+        일분기 후 순위에서 제외되는 종목을 매도하고 순위에 포함되는 종목을 매수하는 방식으로 투자합니다. 이 방식으로 2000년부터 2018년까지 백테스한 수익률은 약 3900%입니다. * 업데이트는 매 주 일요일에 한 번 실행됩니다.  </p>
+      </div>
+      <div class="col-md-5">
+      <!-- img src를 이용해 사진을 넣고 사진을 누르면 듀얼모멘텀전략.html로 넘어가게  a href 태그를 이용해서 연결한다. -->
+          <a href="듀얼모멘텀전략.html" onclick="window.open(this.href, '_blank', 'width=800px,height=700px,toolbars=no,scrollbars=no'); return false;">
+        <img src="img/게리 안토나치.PNG" class="img-responsive" alt="Responsive image" width="500" height="500">
+      </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>		<!-- 페이지 제일 위로 올라감. -->
+  </footer>
+</main>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+</html>
